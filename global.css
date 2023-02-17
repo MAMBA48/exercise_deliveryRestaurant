@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins';
+}
+body {
+    background: #fff2ee;
+}
+h2 {
+    color: #ff4400;
+    text-align: center;
+    margin: 40px;
+}
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    color: #000;
+    text-decoration: none;
+}
+span {
+    box-sizing: border-box;
+    padding: 10px;
+}
+#container {
+    box-sizing: border-box;
+    position: relative;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+}
+#options-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px 10px;
+    height: auto;
+    width: 100%;
+}
+#choice-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 70px;
+    width: 100%;
+    max-width: 1024px;
+    background: #fff;
+    box-shadow: 0px 1px 6px #b4b4b457;
+    border-radius: 10px;
+}
+#img {
+    margin-left: 5px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+}
+.america-pic {
+    background: url('../styles/imgs/america.jpg');
+}
+.brooklyn-pic {
+    background: url('./imgs/broklyn.png');
+}
+.carilas-pic {
+    background: url('./imgs/carilas.jpg');
+}
+.esfiha-pic {
+    background: url('./imgs/casaEsf.jpeg');
+}
+.lugs-pic {
+    background: url('./imgs/lugs.png');
+}
+#delivery {
+    display: flex;
+    color: #f68b64;
+    font-size: 0.750rem;
+}
+#delivery p {
+    margin-right: 5px;
+    color: #61616A;
+}
+#info {
+    padding: 10px;
+}

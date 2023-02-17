@@ -1,0 +1,58 @@
+#content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    max-width: 1024px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+#card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0px 1px 6px #b4b4b457;
+    border-radius: 10px;
+    height: 350px;
+    width: 240px;
+}
+#img-card {
+    background-size: cover;
+    box-shadow: 0px 1px 6px #b4b4b457;
+    border-radius: 10px;
+    height: 160px;
+    width: 100%;
+}
+#space-btt {
+    position: absolute;
+    display: inline;
+    height: 70px;
+    width: 100%;
+    bottom: 0%;
+}
+#btt-buy {
+    text-align: center;
+    position: absolute;
+    background-color: #ff4400;
+    color: #fff;
+    padding: 4px;
+    right: 10px;
+    bottom: 15px;
+    width: 90px;
+    border-radius: 10px;
+}
+#value {
+    position: absolute;
+    font-size: 1.4rem;
+    left: 10px;
+    bottom: 15px;
+    color: #ff4400;
+}
+.x-salada {
+    background: url('../styles/imgs/hamburguer.jpg');
+}
